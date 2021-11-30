@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<link rel="icon" href="favicon.png">
+	<title>DHL</title>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -11,387 +12,389 @@
 </head>
 <body>
 	<header id="header">
-		<div class="header_wrapper section_wrapper">
+		<div class="header-wrapper section-wrapper">
 			<div class="logo">
-				<a href="#"><img src="img/logo.png" alt="logo"></a>
+				<a class="logo__img" href="#"><img src="img/logo.png" alt="logo"></a>
 			</div>
 			<div class="menu">
-				<ul>
-					<li><a href="#">express</a></li>
-					<li><a href="#">parcel & ecommerce</a></li>
-					<li><a href="#">logistics</a></li>
-					<li><a href="#">mail</a></li>
-					<li><a href="#">press</a></li>
-					<li><a href="#">about</a></li>
+				<ul class="menu__list">
+					<li class="menu__element"><a class="menu__link" href="#">express</a></li>
+					<li class="menu__element"><a class="menu__link" href="#">parcel & ecommerce</a></li>
+					<li class="menu__element"><a class="menu__link" href="#">logistics</a></li>
+					<li class="menu__element"><a class="menu__link" href="#">mail</a></li>
+					<li class="menu__element"><a class="menu__link" href="#">press</a></li>
+					<li class="menu__element"><a class="menu__link" href="#">about</a></li>
 				</ul>
 			</div>
-			<div class="menu_mob">
-				<div class="menu_nav">
-					<span class="menu_nav_line"></span>
-					<span class="menu_nav_line"></span>
-					<span class="menu_nav_line"></span>
+			<div class="menu-mob">
+				<div class="menu-mob__nav">
+					<span class="menu-mob__nav-line"></span>
+					<span class="menu-mob__nav-line"></span>
+					<span class="menu-mob__nav-line"></span>
 				</div>
-				<ul  class="menu_mob_list">
-					<li><a href="#">express</a></li>
-					<li><a href="#">parcel & ecommerce</a></li>
-					<li><a href="#">logistics</a></li>
-					<li><a href="#">mail</a></li>
-					<li><a href="#">press</a></li>
-					<li><a href="#">about</a></li>
+				<ul  class="menu-mob__list">
+					<li class="menu-mob__element"><a class="menu-mob__link" href="#">express</a></li>
+					<li class="menu-mob__element"><a class="menu-mob__link" href="#">parcel & ecommerce</a></li>
+					<li class="menu-mob__element"><a class="menu-mob__link" href="#">logistics</a></li>
+					<li class="menu-mob__element"><a class="menu-mob__link" href="#">mail</a></li>
+					<li class="menu-mob__element"><a class="menu-mob__link" href="#">press</a></li>
+					<li class="menu-mob__element"><a class="menu-mob__link" href="#">about</a></li>
 				</ul>
 			</div>
 		</div>
 	</header>
 
-	<section id="speed_section">
-		<div class="section_wrapper speed_wrapper">
-			<h1>We Deliver<br> With Speed</h1>
-			<span class="line_speed"></span>
-			<p>When an unknown printer took a galley of type and scrambled<br> it to make a type specimen book. It has survived not only five centuries</p>
-			<div class="speed_list">
-				<strong class="speed_list_words">amazing</strong>
-				<span class="speed_list_point">.</span>
-				<strong  class="speed_list_words">quick</strong>
-				<span class="speed_list_point">.</span>
-				<strong  class="speed_list_words">24/7 supports</strong>
+	<section id="speed-section">
+		<div class="speed-wrapper section-wrapper">
+			<h1 class="speed-wrapper__heading">We Deliver<br> With Speed</h1>
+			<span class="speed-wrapper__line-speed"></span>
+			<p class="speed-wrapper__text">When an unknown printer took a galley of type and scrambled<br> it to make a type specimen book. It has survived not only five centuries</p>
+			<div class="speed-wrapper__speed-list">
+				<strong class="speed-wrapper__words">amazing</strong>
+				<span class="speed-wrapper__point">.</span>
+				<strong  class="speed-wrapper__words">quick</strong>
+				<span class="speed-wrapper__point">.</span>
+				<strong  class="speed-wrapper__words">24/7 supports</strong>
 			</div>
-			<div class="speed_buttons">
-				<button class="wide_button speed_btn_learn">Learn More</button>
-				<button class="wide_button speed_btn_dhl">dhl worldwide</button>
+			<div class="speed-buttons">
+				<button class="wide-button speed-buttons__btn-learn">Learn More</button>
+				<button class="wide-button speed-buttons__btn-dhl">dhl worldwide</button>
 			</div>
 		</div>
 	</section>
 
 	<section id="services">
-		<div class="section_wrapper services_wrapper">
-			<h1>Awesome Services</h1>
-			<div class="services_block_wrapper">
-				<div class="services_block_element services_block_news">
-					<img src="img/services1.png" alt="services">
-					<h3>Express Services</h3>
-					<p>When an unknown printer took a galley of type and scrambled it to make a type specimen.</p>
-					<a href="#">Read More <i class="fas fa-caret-right triangle_red"></i></a>
+		<div class="section-wrapper services-wrapper">
+			<h1 class="services-wrapper__heading">Awesome Services</h1>
+			<div class="services-block-wrapper">
+				<div class="services-block-element services-block-news">
+					<img class="services-block-news__img" src="img/services1.png" alt="services">
+					<h3 class="services-block-news__heading">Express Services</h3>
+					<p class="services-block-news__text">When an unknown printer took a galley of type and scrambled it to make a type specimen.</p>
+					<a class="services-block-news__link" href="#">Read More <i class="fas fa-caret-right triangle-red"></i></a>
 				</div>
-				<div class="services_block_element services_block_news">
-					<img src="img/services2.png" alt="services">
-					<h3>Express Services</h3>
-					<p>When an unknown printer took a galley of type and scrambled it to make a type specimen.</p>
-					<a href="#">Read More <i class="fas fa-caret-right triangle_red"></i></a>
+				<div class="services-block-element services-block-news">
+					<img class="services-block-news__img" src="img/services2.png" alt="services">
+					<h3 class="services-block-news__heading">Express Services</h3>
+					<p class="services-block-news__text">When an unknown printer took a galley of type and scrambled it to make a type specimen.</p>
+					<a class="services-block-news__link" href="#">Read More <i class="fas fa-caret-right triangle-red"></i></a>
 				</div>
-				<div class="services_block_element services_block_news">
-					<img src="img/services3.png" alt="services">
-					<h3>Express Services</h3>
-					<p>When an unknown printer took a galley of type and scrambled it to make a type specimen.</p>
-					<a href="#">Read More <i class="fas fa-caret-right triangle_red"></i></a>
+				<div class="services-block-element services-block-news">
+					<img class="services-block-news__img" src="img/services3.png" alt="services">
+					<h3 class="services-block-news__heading">Express Services</h3>
+					<p class="services-block-news__text">When an unknown printer took a galley of type and scrambled it to make a type specimen.</p>
+					<a class="services-block-news__link" href="#">Read More <i class="fas fa-caret-right triangle-red"></i></a>
 				</div>
-				<div class="services_block_element worldwide_block">
-					<h3>DHl Worldwide</h3>
-					<span class="line_services"></span>
-					<p>When an unknown prot printer type and scra</p>
+				<div class="services-block-element worldwide-block">
+					<h3 class="worldwide-block__heading">DHl Worldwide</h3>
+					<span class="worldwide-block__line-services"></span>
+					<p class="worldwide-block__text">When an unknown prot printer type and scra</p>
 					<div class="select" tabindex="1">
-						<div class="arrow_list_wrap">
-							<div class="arrow_list">></div>		
+						<div class="select__arrow-list-wrap">
+							<div class="select__arrow-list">></div>		
 						</div>
-						<span class="option_value">Location</span>
-						<ul class="options">
-							<li class="option">Location 1</li>
-							<li class="option">Location 2</li>
-							<li class="option">Location 3</li>
+						<span class="select__option-value">Location</span>
+						<ul class="select__options">
+							<li class="select__option">Location 1</li>
+							<li class="select__option">Location 2</li>
+							<li class="select__option">Location 3</li>
 						</ul>
 					</div>
-					<button class="wide_button explore_button">explore</button>
+					<button class="wide-button explore-button">explore</button>
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<section id="provider">
-		<div class="title_provider">
-				<h1>One of the best international service provider</h1>
-			</div>
-		<div class="provider_wrapper section_wrapper">
-			<div class="provider_block">
-				<div class="provider_block_element">
-					<div class="provider_block_img">
-						<img class="provider_img" src="img/provide1.png" alt="truck">
+		<div class="title-provider">
+			<h1 class="title-provider__heading">One of the best international service provider</h1>
+		</div>
+		<div class="provider-wrapper section-wrapper">
+			<div class="provider-block">
+				<div class="provider-element">
+					<div class="provider-element__block-img">
+						<img class="provider-element__img" src="img/provide1.png" alt="truck">
 					</div>
-					<div class="provider_block_text">
-						<h3>Aerospace Provider</h3>
-						<ul>
-							<li><i class="fas fa-caret-right triangle_yellow"></i><p>When an unknown printer took.</p></li>
-							<li><i class="fas fa-caret-right triangle_yellow"></i><p>Make a type specimen book.</p></li>
-							<li><i class="fas fa-caret-right triangle_yellow"></i><p>It has survived.</p></li>
-							<li><i class="fas fa-caret-right triangle_yellow"></i><p>Airlines unknown specimen.</p></li>
+					<div class="provider-element__text-block">
+						<h3 class="provider-element__heading">Aerospace Provider</h3>
+						<ul class="provider-element__list">
+							<li class="provider-element__list-element"><i class="fas fa-caret-right triangle-yellow"></i><p class="provider-element__text">When an unknown printer took.</p></li>
+							<li class="provider-element__list-element"><i class="fas fa-caret-right triangle-yellow"></i><p class="provider-element__text">Make a type specimen book.</p></li>
+							<li class="provider-element__list-element"><i class="fas fa-caret-right triangle-yellow"></i><p class="provider-element__text">It has survived.</p></li>
+							<li class="provider-element__list-element"><i class="fas fa-caret-right triangle-yellow"></i><p class="provider-element__text">Airlines unknown specimen.</p></li>
 						</ul>
 					</div>
 				</div>
-				<div class="provider_block_element">
-					<div class="provider_block_img">
-						<img class="provider_img" src="img/provide2.png" alt="minivan">
+				<div class="provider-element">
+					<div class="provider-element__block-img">
+						<img class="provider-element__img" src="img/provide2.png" alt="minivan">
 					</div>
-					<div class="provider_block_text">
-						<h3>Poppins Proved</h3>
-						<ul>
-							<li><i class="fas fa-caret-right triangle_yellow"></i><p>When an unknown printer took.</p></li>
-							<li><i class="fas fa-caret-right triangle_yellow"></i><p>Make a type specimen book.</p></li>
-							<li><i class="fas fa-caret-right triangle_yellow"></i><p>It has survived.</p></li>
-							<li><i class="fas fa-caret-right triangle_yellow"></i><p>Airlines unknown specimen.</p></li>
+					<div class="provider-element__text-block">
+						<h3 class="provider-element__heading">Poppins Proved</h3>
+						<ul class="provider-element__list">
+							<li class="provider-element__list-element"><i class="fas fa-caret-right triangle-yellow"></i><p class="provider-element__text">When an unknown printer took.</p></li>
+							<li class="provider-element__list-element"><i class="fas fa-caret-right triangle-yellow"></i><p class="provider-element__text">Make a type specimen book.</p></li>
+							<li class="provider-element__list-element"><i class="fas fa-caret-right triangle-yellow"></i><p class="provider-element__text">It has survived.</p></li>
+							<li class="provider-element__list-element"><i class="fas fa-caret-right triangle-yellow"></i><p class="provider-element__text">Airlines unknown specimen.</p></li>
 						</ul>
 					</div>
 				</div>
-				<div class="provider_block_element">
-					<div class="provider_block_img">
-						<img class="provider_img" src="img/provide3.png" alt="plane">
+				<div class="provider-element">
+					<div class="provider-element__block-img">
+						<img class="provider-element__img" src="img/provide3.png" alt="plane">
 					</div>
-					<div class="provider_block_text">
-						<h3>Airline Specimen</h3>
-						<ul>
-							<li><i class="fas fa-caret-right triangle_yellow"></i><p>When an unknown printer took.</p></li>
-							<li><i class="fas fa-caret-right triangle_yellow"></i><p>Make a type specimen book.</p></li>
-							<li><i class="fas fa-caret-right triangle_yellow"></i><p>It has survived.</p></li>
-							<li><i class="fas fa-caret-right triangle_yellow"></i><p>Airlines unknown specimen.</p></li>
+					<div class="provider-element__text-block">
+						<h3 class="provider-element__heading">Airline Specimen</h3>
+						<ul class="provider-element__list">
+							<li class="provider-element__list-element"><i class="fas fa-caret-right triangle-yellow"></i><p class="provider-element__text">When an unknown printer took.</p></li>
+							<li class="provider-element__list-element"><i class="fas fa-caret-right triangle-yellow"></i><p class="provider-element__text">Make a type specimen book.</p></li>
+							<li class="provider-element__list-element"><i class="fas fa-caret-right triangle-yellow"></i><p class="provider-element__text">It has survived.</p></li>
+							<li class="provider-element__list-element"><i class="fas fa-caret-right triangle-yellow"></i><p class="provider-element__text">Airlines unknown specimen.</p></li>
 						</ul>
 					</div>
 				</div>
-				<div class="mobile_provider">
-					<div class="provider_block_element mobile_element">
-						<div class="provider_block_img">
-							<img class="provider_img" src="img/provide1.png" alt="truck">
+				<div class="mobile-provider">
+					<div class="provider-element mobile-element">
+						<div class="provider-element__block-img">
+							<img class="provider-element__img" src="img/provide1.png" alt="truck">
 						</div>
-						<div class="provider_block_text">
-							<h3>Aerospace Provider</h3>
-							<ul>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>When an unknown printer took.</p></li>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>Make a type specimen book.</p></li>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>It has survived.</p></li>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>Airlines unknown specimen.</p></li>
+						<div class="provider-element__text-block">
+							<h3 class="provider-element__heading">Aerospace Provider</h3>
+							<ul class="provider-element__list">
+								<li class="provider-element__list-element"><i class="fas fa-caret-right triangle-yellow"></i><p class="provider-element__text">When an unknown printer took.</p></li>
+								<li class="provider-element__list-element"><i class="fas fa-caret-right triangle-yellow"></i><p class="provider-element__text">Make a type specimen book.</p></li>
+								<li class="provider-element__list-element"><i class="fas fa-caret-right triangle-yellow"></i><p class="provider-element__text">It has survived.</p></li>
+								<li class="provider-element__list-element"><i class="fas fa-caret-right triangle-yellow"></i><p class="provider-element__text">Airlines unknown specimen.</p></li>
 							</ul>
 						</div>
 					</div>
-					<div class="provider_block_element mobile_element">
-						<div class="provider_block_img">
-							<img class="provider_img" src="img/provide2.png" alt="minivan">
+					<div class="provider-element mobile-element">
+						<div class="provider-element__block-img">
+							<img class="provider-element__img" src="img/provide2.png" alt="minivan">
 						</div>
-						<div class="provider_block_text">
-							<h3>Poppins Proved</h3>
-							<ul>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>When an unknown printer took.</p></li>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>Make a type specimen book.</p></li>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>It has survived.</p></li>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>Airlines unknown specimen.</p></li>
+						<div class="provider-element__text-block">
+							<h3 class="provider-element__heading">Poppins Proved</h3>
+							<ul class="provider-element__list">
+								<li class="provider-element__list-element"><i class="fas fa-caret-right triangle-yellow"></i><p class="provider-element__text">When an unknown printer took.</p></li>
+								<li class="provider-element__list-element"><i class="fas fa-caret-right triangle-yellow"></i><p class="provider-element__text">Make a type specimen book.</p></li>
+								<li class="provider-element__list-element"><i class="fas fa-caret-right triangle-yellow"></i><p class="provider-element__text">It has survived.</p></li>
+								<li class="provider-element__list-element"><i class="fas fa-caret-right triangle-yellow"></i><p class="provider-element__text">Airlines unknown specimen.</p></li>
 							</ul>
 						</div>
 					</div>
-					<div class="provider_block_element mobile_element">
-						<div class="provider_block_img">
-							<img class="provider_img" src="img/provide3.png" alt="plane">
+					<div class="provider-element mobile-element">
+						<div class="provider-element__block-img">
+							<img class="provider-element__img" src="img/provide3.png" alt="plane">
 						</div>
-						<div class="provider_block_text">
-							<h3>Airline Specimen</h3>
-							<ul>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>When an unknown printer took.</p></li>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>Make a type specimen book.</p></li>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>It has survived.</p></li>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>Airlines unknown specimen.</p></li>
+						<div class="provider-element__text-block">
+							<h3 class="provider-element__heading">Airline Specimen</h3>
+							<ul class="provider-element__list">
+								<li class="provider-element__list-element"><i class="fas fa-caret-right triangle-yellow"></i><p class="provider-element__text">When an unknown printer took.</p></li>
+								<li class="provider-element__list-element"><i class="fas fa-caret-right triangle-yellow"></i><p class="provider-element__text">Make a type specimen book.</p></li>
+								<li class="provider-element__list-element"><i class="fas fa-caret-right triangle-yellow"></i><p class="provider-element__text">It has survived.</p></li>
+								<li class="provider-element__list-element"><i class="fas fa-caret-right triangle-yellow"></i><p class="provider-element__text">Airlines unknown specimen.</p></li>
 							</ul>
 						</div>
 					</div>
-					<div class="mobile_next">></div>
-					<div class="mobile_prev"><</div>
+					<div class="mobile-next">></div>
+					<div class="mobile-prev"><</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<section id="express">
-		<div class="section_wrapper express">
-			<div class="express_logistic_block">
-				<div class="switch_block">
-					<button class="switch_btn switch_btn_exp switch_btn_active">express</button>
-					<button class="switch_btn switch_btn_log">logistic</button>
+		<div class="section-wrapper express">
+			<div class="express-logistic">
+				<div class="express-logistic__switch-block">
+					<button class="express-logistic__switch-btn express-logistic__switch-btn_exp express-logistic__switch-btn_active">express</button>
+					<button class="express-logistic__switch-btn express-logistic__switch-btn_log">logistic</button>
 				</div>
-				<div class="express_block subsidiary_block">
-					<div class="option_block option_block1 option_block_active">
-						<p class="option_title option_title1">track your shipment</p>
-						<span class="opt_arrow">></span>
-						<div class="option_info option_info1">
+				<div class="express-block subsidiary-block">
+					<div class="option-block option-block1 option-block_active">
+						<p class="option-block__title option-block1__title">track your shipment</p>
+						<span class="option-block__option-arrow">></span>
+						<div class="option-block__option-info option-block__option-info1">
 							<h3>International Services to Another Country</h3>
 							<ul>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>Emergency</p></li>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>Time Critical</p></li>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>Less Urgen</p></li>
+								<li><i class="fas fa-caret-right triangle-yellow"></i><p>Emergency</p></li>
+								<li><i class="fas fa-caret-right triangle-yellow"></i><p>Time Critical</p></li>
+								<li><i class="fas fa-caret-right triangle-yellow"></i><p>Less Urgen</p></li>
 							</ul>
 						</div>
 					</div>
-					<div class="option_block option_block2">
-						<p class="option_title option_title2">new login</p>
-						<span class="opt_arrow">></span>
-						<div class="option_info option_info2">
+					<div class="option-block option-block2">
+						<p class="option-block__title option-block2__title">new login</p>
+						<span class="option-block__option-arrow">></span>
+						<div class="option-block__option-info option-block__option-info2">
 							<h3>International Services to Another Country</h3>
 							<ul>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>Emergency</p></li>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>Time Critical</p></li>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>Less Urgen</p></li>
+								<li><i class="fas fa-caret-right triangle-yellow"></i><p>Emergency</p></li>
+								<li><i class="fas fa-caret-right triangle-yellow"></i><p>Time Critical</p></li>
+								<li><i class="fas fa-caret-right triangle-yellow"></i><p>Less Urgen</p></li>
 							</ul>
 						</div>
 					</div>
-					<div class="option_block option_block3">
-						<p class="option_title option_title3">find dhl point</p>
-						<span class="opt_arrow">></span>
-						<div class="option_info option_info3">
+					<div class="option-block option-block3">
+						<p class="option-block__title option-block3__title">find dhl point</p>
+						<span class="option-block__option-arrow">></span>
+						<div class="option-block__option-info option-block__option-info3">
 							<h3>International Services to Another Country</h3>
 							<ul>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>Emergency</p></li>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>Time Critical</p></li>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>Less Urgen</p></li>
+								<li><i class="fas fa-caret-right triangle-yellow"></i><p>Emergency</p></li>
+								<li><i class="fas fa-caret-right triangle-yellow"></i><p>Time Critical</p></li>
+								<li><i class="fas fa-caret-right triangle-yellow"></i><p>Less Urgen</p></li>
 							</ul>
 						</div>
 					</div>
-					<div class="option_block option_block4">
-						<p class="option_title option_title4">find a service</p>
-						<span class="opt_arrow">></span>
-						<div class="option_info option_info4">
+					<div class="option-block option-block4">
+						<p class="option-block__title option-block4__title">find a service</p>
+						<span class="option-block__option-arrow">></span>
+						<div class="option-block__option-info option-block__option-info4">
 							<h3>International Services to Another Country</h3>
 							<ul>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>Emergency</p></li>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>Time Critical</p></li>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>Less Urgen</p></li>
+								<li><i class="fas fa-caret-right triangle-yellow"></i><p>Emergency</p></li>
+								<li><i class="fas fa-caret-right triangle-yellow"></i><p>Time Critical</p></li>
+								<li><i class="fas fa-caret-right triangle-yellow"></i><p>Less Urgen</p></li>
 							</ul>
 						</div>
 					</div>
 				</div>
-				<div class="logistic_block block_none subsidiary_block">
-					<div class="option_block option_block1 option_block_active">
-						<p class="option_title option_title1">Lorem ipsum, dolor.</p>
-						<span class="opt_arrow">></span>
-						<div class="option_info option_info1">
+				<div class="logistic-block block-none subsidiary-block">
+					<div class="option-block option-block1 option-block_active">
+						<p class="option-block__title option-block1__title">Lorem ipsum, dolor.</p>
+						<span class="option-block__option-arrow">></span>
+						<div class="option-block__option-info option-block__option-info1">
 							<h3>Lorem ipsum dolor sit, amet consectetur</h3>
 							<ul>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>Lorem ipsum dolor sit amet consectetur.</p></li>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>Lorem, ipsum, dolor.</p></li>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>Lorem, ipsum.</p></li>
+								<li><i class="fas fa-caret-right triangle-yellow"></i><p>Lorem ipsum dolor sit amet consectetur.</p></li>
+								<li><i class="fas fa-caret-right triangle-yellow"></i><p>Lorem, ipsum, dolor.</p></li>
+								<li><i class="fas fa-caret-right triangle-yellow"></i><p>Lorem, ipsum.</p></li>
 							</ul>
 						</div>
 					</div>
-					<div class="option_block option_block2">
-						<p class="option_title option_title2">Lorem ipsum, dolor sit.</p>
-						<span class="opt_arrow">></span>
-						<div class="option_info option_info2">
+					<div class="option-block option-block2">
+						<p class="option-block__title option-block2__title">Lorem ipsum, dolor sit.</p>
+						<span class="option-block__option-arrow">></span>
+						<div class="option-block__option-info option-block__option-info2">
 							<h3>Lorem, ipsum dolor sit amet.</h3>
 							<ul>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>Lorem, ipsum, dolor.</p></li>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>Lorem ipsum dolor sit amet consectetur.</p></li>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>Lorem, ipsum.</p></li>
+								<li><i class="fas fa-caret-right triangle-yellow"></i><p>Lorem, ipsum, dolor.</p></li>
+								<li><i class="fas fa-caret-right triangle-yellow"></i><p>Lorem ipsum dolor sit amet consectetur.</p></li>
+								<li><i class="fas fa-caret-right triangle-yellow"></i><p>Lorem, ipsum.</p></li>
 							</ul>
 						</div>
 					</div>
-					<div class="option_block option_block3">
-						<p class="option_title option_title3">Lorem ipsum dolor sit amet.</p>
-						<span class="opt_arrow">></span>
-						<div class="option_info option_info3">
+					<div class="option-block option-block3">
+						<p class="option-block__title option-block3__title">Lorem ipsum dolor sit amet.</p>
+						<span class="option-block__option-arrow">></span>
+						<div class="option-block__option-info option-block__option-info3">
 							<h3>Lorem, ipsum.</h3>
 							<ul>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>Lorem, ipsum, dolor.</p></li>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>Lorem ipsum dolor sit amet.</p></li>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>Lorem, ipsum.</p></li>
+								<li><i class="fas fa-caret-right triangle-yellow"></i><p>Lorem, ipsum, dolor.</p></li>
+								<li><i class="fas fa-caret-right triangle-yellow"></i><p>Lorem ipsum dolor sit amet.</p></li>
+								<li><i class="fas fa-caret-right triangle-yellow"></i><p>Lorem, ipsum.</p></li>
 							</ul>
 						</div>
 					</div>
-					<div class="option_block option_block4">
-						<p class="option_title option_title4">Lorem</p>
-						<span class="opt_arrow">></span>
-						<div class="option_info option_info4">
+					<div class="option-block option-block4">
+						<p class="option-block__title option-block4__title">Lorem</p>
+						<span class="option-block__option-arrow">></span>
+						<div class="option-block__option-info option-block__option-info4">
 							<h3>Lorem ipsum dolor, sit amet consectetur.</h3>
 							<ul>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>Lorem, ipsum.</p></li>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>Lorem, ipsum.</p></li>
-								<li><i class="fas fa-caret-right triangle_yellow"></i><p>Lorem, ipsum.</p></li>
+								<li><i class="fas fa-caret-right triangle-yellow"></i><p>Lorem, ipsum.</p></li>
+								<li><i class="fas fa-caret-right triangle-yellow"></i><p>Lorem, ipsum.</p></li>
+								<li><i class="fas fa-caret-right triangle-yellow"></i><p>Lorem, ipsum.</p></li>
 							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="express_img_wrap">
-				<img class="exp_img" src="img/workers.png">
-				<div class="border_img"></div>
+			<div class="express-img">
+				<img class="express-img__img" src="img/workers.png">
+				<div class="express-img__border"></div>
 			</div>
 		</div>
 	</section>
 
 	<section id="excellence">
-		<div class="section_wrapper excellence_block">
-			<div class="excellence_text">
-				<h2>Excellence. Simply delivered.</h2>
-				<p>International express deliveries; global freight forwarding by air, sea, road and rail; warehousing solutions from packaging, to repairs, to storage; mail deliveries worldwide;  with everything DHL does, we with everything DHL does, we help connect people and improve their lives.</p>
+		<div class="section-wrapper excellence-block">
+			<div class="excellence-block__text-block">
+				<h2 class="excellence-block__heading">Excellence. Simply delivered.</h2>
+				<p class="excellence-block__text">International express deliveries; global freight forwarding by air, sea, road and rail; warehousing solutions from packaging, to repairs, to storage; mail deliveries worldwide;  with everything DHL does, we with everything DHL does, we help connect people and improve their lives.</p>
 			</div>
-			<div class="button_block">
-				<button id="excellence_btn" class="wide_button">learn more</button>
+			<div class="button-block">
+				<button id="excellence__btn" class="wide-button">learn more</button>
 			</div>
 		</div>
 	</section>
 
 	<footer id="footer">
-		<div class="footer_block">
-			<div class="footer_left"><img src="img/footer_left.png" alt="truck"></div>
-			<div class="footer_block_wrap">
-				<div class="footer_block_element">
-						<h3>Contact Center</h3>
-						<ul class="footer_list">
-							<li><a href="#"><i class="fas fa-caret-right triangle_red fa_footer"></i>dhl express</a></li>
-							<li><a href="#"><i class="fas fa-caret-right triangle_red fa_footer"></i>dhl Parcel & eCommerce</a></li>
-							<li><a href="#"><i class="fas fa-caret-right triangle_red fa_footer"></i>dhl Global Forwarding</a></li>
-							<li><a href="#"><i class="fas fa-caret-right triangle_red fa_footer"></i>dhl Freight</a></li>
-							<li><a href="#"><i class="fas fa-caret-right triangle_red fa_footer"></i>dhl Supply Chain</a></li>
-						</ul>
-				</div>
-				<div class="footer_block_element">
-					<h3>About Us</h3>
-					<ul class="footer_list">
-						<li><a href="#"><i class="fas fa-caret-right triangle_red fa_footer"></i>Partnerships</a></li>
-						<li><a href="#"><i class="fas fa-caret-right triangle_red fa_footer"></i>Company Portrait</a></li>
-						<li><a href="#"><i class="fas fa-caret-right triangle_red fa_footer"></i>DHL Global Forwarding</a></li>
-						<li><a href="#"><i class="fas fa-caret-right triangle_red fa_footer"></i>Green Solutions</a></li>
-						<li><a href="#"><i class="fas fa-caret-right triangle_red fa_footer"></i>Innovation</a></li>
+		<div class="footer-block">
+			<div class="footer-left"><img class="footer-left__img" src="img/footer_left.png" alt="truck"></div>
+			<div class="footer-block-wrap">
+				<div class="footer-element">
+					<h3 class="footer-element__heading">Contact Center</h3>
+					<ul class="footer-element__list">
+						<li class="footer-element__list-element"><a class="footer-element__link" href="#"><i class="fas fa-caret-right triangle-red fa-footer"></i>dhl express</a></li>
+						<li class="footer-element__list-element"><a class="footer-element__link" href="#"><i class="fas fa-caret-right triangle-red fa-footer"></i>dhl Parcel & eCommerce</a></li>
+						<li class="footer-element__list-element"><a class="footer-element__link" href="#"><i class="fas fa-caret-right triangle-red fa-footer"></i>dhl Global Forwarding</a></li>
+						<li class="footer-element__list-element"><a class="footer-element__link" href="#"><i class="fas fa-caret-right triangle-red fa-footer"></i>dhl Freight</a></li>
+						<li class="footer-element__list-element"><a class="footer-element__link" href="#"><i class="fas fa-caret-right triangle-red fa-footer"></i>dhl Supply Chain</a></li>
 					</ul>
 				</div>
-				<div class="footer_block_element">
-					<h3>Social Media</h3>
-					<ul class="footer_list">
-						<li><a href="#"><i class="fas fa-caret-right triangle_red fa_footer"></i>facebook</a></li>
-						<li><a href="#"><i class="fas fa-caret-right triangle_red fa_footer"></i>dribbble</a></li>
-						<li><a href="#"><i class="fas fa-caret-right triangle_red fa_footer"></i>behance</a></li>
-						<li><a href="#"><i class="fas fa-caret-right triangle_red fa_footer"></i>gmail</a></li>
-						<li><a href="#"><i class="fas fa-caret-right triangle_red fa_footer"></i>twitter</a></li>
+				<div class="footer-element">
+					<h3 class="footer-element__heading">About Us</h3>
+					<ul class="footer-element__list">
+						<li class="footer-element__list-element"><a class="footer-element__link" href="#"><i class="fas fa-caret-right triangle-red fa-footer"></i>Partnerships</a></li>
+						<li class="footer-element__list-element"><a class="footer-element__link" href="#"><i class="fas fa-caret-right triangle-red fa-footer"></i>Company Portrait</a></li>
+						<li class="footer-element__list-element"><a class="footer-element__link" href="#"><i class="fas fa-caret-right triangle-red fa-footer"></i>DHL Global Forwarding</a></li>
+						<li class="footer-element__list-element"><a class="footer-element__link" href="#"><i class="fas fa-caret-right triangle-red fa-footer"></i>Green Solutions</a></li>
+						<li class="footer-element__list-element"><a class="footer-element__link" href="#"><i class="fas fa-caret-right triangle-red fa-footer"></i>Innovation</a></li>
+					</ul>
+				</div>
+				<div class="footer-element">
+					<h3 class="footer-element__heading">Social Media</h3>
+					<ul class="footer-element__list">
+						<li class="footer-element__list-element"><a class="footer-element__link" href="#"><i class="fas fa-caret-right triangle-red fa-footer"></i>facebook</a></li>
+						<li class="footer-element__list-element"><a class="footer-element__link" href="#"><i class="fas fa-caret-right triangle-red fa-footer"></i>dribbble</a></li>
+						<li class="footer-element__list-element"><a class="footer-element__link" href="#"><i class="fas fa-caret-right triangle-red fa-footer"></i>behance</a></li>
+						<li class="footer-element__list-element"><a class="footer-element__link" href="#"><i class="fas fa-caret-right triangle-red fa-footer"></i>gmail</a></li>
+						<li class="footer-element__list-element"><a class="footer-element__link" href="#"><i class="fas fa-caret-right triangle-red fa-footer"></i>twitter</a></li>
 					</ul>
 				</div>
 			</div>
-			<div class="footer_right"><img src="img/footer_right.png" alt="truck"></div>
+			<div class="footer-right"><img class="footer-right__img" src="img/footer_right.png" alt="truck"></div>
 		</div>
 	</footer>
 
 	<script>
 
 		//MOBILE MENU
-		const menu_mob = document.querySelector('.menu_mob');
-		const menu_nav = document.querySelector('.menu_nav');
+		const menuMob = document.querySelector('.menu-mob');
+		const menuMobNav = document.querySelector('.menu-mob__nav');
+		const menuMobList = document.querySelector('.menu-mob__list');
 
-		menu_nav.onclick = function(){
-			menu_mob.classList.toggle("menu_mob_active");
-			menu_nav.classList.toggle("menu_nav_active");
-			document.body.classList.toggle("body_hidden");
+		menuMobNav.onclick = function(){
+			menuMob.classList.toggle("menu-mob_active");
+			menuMobNav.classList.toggle("menu-mob__nav_active");
+			menuMobList.classList.toggle("menu-mob__list_active");
+			document.body.classList.toggle("body-hidden");
 		}
 
 
 		//LOCATION
 		const select = document.querySelector('.select');
-		const option_value = document.querySelector('.option_value');
-		const options = document.querySelector('.options');
+		const optionValue = document.querySelector('.select__option-value');
+		const options = document.querySelector('.select__options');
 
 
 		options.addEventListener('click', e => {
-			const option = e.target.closest('.option');
+			const option = e.target.closest('.select__option');
 			if (option) {
-				option_value.textContent = option.textContent;
+				optionValue.textContent = option.textContent;
 		    e.target.closest('.select').blur()
 		    select.dispatchEvent(new CustomEvent('change', { detail: option.textContent }))
 		  }
@@ -399,42 +402,42 @@
 
 		//MOBILE SLIDER
 		var index = 1;
-		var mobile_element = document.getElementsByClassName('mobile_element');
+		var mobileElement = document.getElementsByClassName('mobile-element');
 		changeSlide(0);
 
-		const mobile_next = document.querySelector('.mobile_next');
-		const mobile_prev = document.querySelector('.mobile_prev');
+		const mobileNext = document.querySelector('.mobile-next');
+		const mobilePrev = document.querySelector('.mobile-prev');
 
-		mobile_next.onclick = function(){
+		mobileNext.onclick = function(){
 			changeSlide(1);
 		}
 
-		mobile_prev.onclick = function(){
+		mobilePrev.onclick = function(){
 			changeSlide(-1);
 		}
 
 		function changeSlide(n) {
 			index += n;
 			if (index < 1) {
-				index = mobile_element.length;
+				index = mobileElement.length;
 			}
 
-			if (index > mobile_element.length) {
+			if (index > mobileElement.length) {
 				index = 1;
 			}
 
-			for(let i = 0; i < mobile_element.length; i++) {
-				mobile_element[i].style.display = "none";
+			for(let i = 0; i < mobileElement.length; i++) {
+				mobileElement[i].style.display = "none";
 			}
-			mobile_element[index-1].style.display = "block";
+			mobileElement[index-1].style.display = "block";
 		}
 
 
 		//EXPRESS AND LOGISTIC
-		const option1 = document.getElementsByClassName('option_block1');
-		const option2 = document.getElementsByClassName('option_block2');
-		const option3 = document.getElementsByClassName('option_block3');
-		const option4 = document.getElementsByClassName('option_block4');
+		const option1 = document.getElementsByClassName('option-block1');
+		const option2 = document.getElementsByClassName('option-block2');
+		const option3 = document.getElementsByClassName('option-block3');
+		const option4 = document.getElementsByClassName('option-block4');
 
 		for(var i = 0; i < option1.length; i++){
 			option1[i].onclick = function(){
@@ -442,10 +445,10 @@
 				if(this == option1[0])
 					j = 0;
 				else j = 1;
-				this.classList.add('option_block_active');
-				option2[j].classList.remove('option_block_active');
-				option3[j].classList.remove('option_block_active');
-				option4[j].classList.remove('option_block_active');
+				this.classList.add('option-block_active');
+				option2[j].classList.remove('option-block_active');
+				option3[j].classList.remove('option-block_active');
+				option4[j].classList.remove('option-block_active');
 			}
 		}
 
@@ -455,10 +458,10 @@
 				if(this == option2[0])
 					j = 0;
 				else j = 1;
-				this.classList.add('option_block_active');
-				option1[j].classList.remove('option_block_active');
-				option3[j].classList.remove('option_block_active');
-				option4[j].classList.remove('option_block_active');
+				this.classList.add('option-block_active');
+				option1[j].classList.remove('option-block_active');
+				option3[j].classList.remove('option-block_active');
+				option4[j].classList.remove('option-block_active');
 			}
 		}
 
@@ -468,10 +471,10 @@
 				if(this == option3[0])
 					j = 0;
 				else j = 1;
-				this.classList.add('option_block_active');
-				option1[j].classList.remove('option_block_active');
-				option2[j].classList.remove('option_block_active');
-				option4[j].classList.remove('option_block_active');
+				this.classList.add('option-block_active');
+				option1[j].classList.remove('option-block_active');
+				option2[j].classList.remove('option-block_active');
+				option4[j].classList.remove('option-block_active');
 			}
 		}
 			for(var i = 0; i < option4.length; i++){
@@ -480,24 +483,24 @@
 				if(this == option4[0])
 					j = 0;
 				else j = 1;
-				this.classList.add('option_block_active');
-				option1[j].classList.remove('option_block_active');
-				option2[j].classList.remove('option_block_active');
-				option3[j].classList.remove('option_block_active');
+				this.classList.add('option-block_active');
+				option1[j].classList.remove('option-block_active');
+				option2[j].classList.remove('option-block_active');
+				option3[j].classList.remove('option-block_active');
 			}
 		}
 
-			document.querySelector('.switch_btn_exp').onclick = function(){
-				(this).classList.add('switch_btn_active');
-				document.querySelector('.switch_btn_log').classList.remove('switch_btn_active');
-				document.querySelector('.express_block').classList.remove('block_none');
-				document.querySelector('.logistic_block').classList.add('block_none');
+			document.querySelector('.express-logistic__switch-btn_exp').onclick = function(){
+				(this).classList.add('express-logistic__switch-btn_active');
+				document.querySelector('.express-logistic__switch-btn_log').classList.remove('express-logistic__switch-btn_active');
+				document.querySelector('.express-block').classList.remove('block-none');
+				document.querySelector('.logistic-block').classList.add('block-none');
 			};
-			document.querySelector('.switch_btn_log').onclick = function(){
-				(this).classList.add('switch_btn_active');
-				document.querySelector('.switch_btn_exp').classList.remove('switch_btn_active');
-				document.querySelector('.logistic_block').classList.remove('block_none');
-				document.querySelector('.express_block').classList.add('block_none');
+			document.querySelector('.express-logistic__switch-btn_log').onclick = function(){
+				(this).classList.add('express-logistic__switch-btn_active');
+				document.querySelector('.express-logistic__switch-btn_exp').classList.remove('express-logistic__switch-btn_active');
+				document.querySelector('.logistic-block').classList.remove('block-none');
+				document.querySelector('.express-block').classList.add('block-none');
 			};
 		
 	</script>
